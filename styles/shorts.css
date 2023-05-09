@@ -1,0 +1,40 @@
+.shorts{
+    display: flex;
+    align-content: space-around;
+    font-size: 20px;
+    font-family: Roboto,Arial;
+    align-items: center;
+}
+.shorts-image{
+    height: 20px;
+}
+.shorts-bar{
+    border-width: 2px;
+    border-style: solid;
+    color: rgb(214, 214, 214);
+    margin-right: 45px;
+}
+.cross-image{
+    height: 35px;
+    margin-left: 1070px;
+    cursor: pointer;
+}
+.cross-image:hover{
+    background-color: rgb(205, 205, 205);
+    border-radius: 50%;
+}
+.shorts-text{
+    max-width: 150px;
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 12px;
+}
+.shorts-views{
+    padding-top: 5px;
+    font-size: 14px;
+    color: rgb(97, 97, 97);
+}
+.shorts-flex{
+    display: flex;
+    flex-direction: column;
+}
